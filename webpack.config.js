@@ -20,6 +20,18 @@ module.exports = {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
             },
+            {
+                test: /\.html$/i,
+                loader: "html-loader",
+            },
+            {
+                test: /\.(png|jpg|jpeg)$/i,
+                type: "asset/resourse",
+            },
         ],
+    },
+    devtool: "eval-source-map",
+    devServer: {
+        watchFiles: ["./src/template.html"],
     },
 };

@@ -103,10 +103,6 @@ h1 {
     margin: 1rem;
 }
 
-.menu-items {
-    
-}
-
 .menu-item {
     display: flex;
     flex-direction: column;

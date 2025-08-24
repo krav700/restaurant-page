@@ -1,5 +1,7 @@
 import "./styles.css";
-import { homeBuilder, menuBuilder, aboutBuilder } from "./pageBuilder.js";
+import { homeBuilder } from "./homeBuilder.js";
+import { menuBuilder } from "./menuBuilder.js";
+import { aboutBuilder } from "./aboutBuilder.js";
 
 homeBuilder();
 
